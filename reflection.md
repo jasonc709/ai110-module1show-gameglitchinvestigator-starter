@@ -41,7 +41,7 @@ I used Claude Code. It correctly found that the New Game button never reset the 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+Streamlit reruns the wholescript from top to bottom each time you click something. This allows your history to get wiped. Session state saves things that stays the same after the rerun so things like secret number are saved.
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -50,3 +50,4 @@ I used Claude Code. It correctly found that the New Game button never reset the 
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+One habit I want to reuse is writing small pytest tests to actually prove a bug is fixed instead of just assuming it works. Next time I would check the AI's edits more carefully, since it once deleted a comment without telling me. This project made me realize AI generated code can look finished but still have hidden bugs, so I should always test it myself before trusting it.
