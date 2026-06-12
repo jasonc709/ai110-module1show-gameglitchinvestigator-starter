@@ -28,6 +28,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Describe the game's purpose.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
+The games purpose was to improve our use of AI when it comes to debugging. We shouldn't blindly ask it to debug but instead we need to suggest stuff too and understand the code before allowing the AI to change it. I found errors like incorrects hints and nonworking button. I fixed the hints so that it retured correct hints and fixed the button so that the game actually resets and allows you to play again.
 
 ## 📸 Demo Walkthrough
 
